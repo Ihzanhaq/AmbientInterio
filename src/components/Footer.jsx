@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <FooterContainer>
       <div className="container">
-        <motion.div 
+        <motion.div
           className="footer-content"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -17,26 +17,63 @@ const Footer = () => {
         >
           <div className="footer-about">
             <h3>DesignHaven</h3>
-            <p>Creating beautiful spaces that inspire and delight. Our team of expert designers brings your vision to life.</p>
+            <p>
+              Creating beautiful spaces that inspire and delight. Our team of
+              expert designers brings your vision to life.
+            </p>
             <div className="social-links">
-              <a href="#"><FaFacebook /></a>
-              <a href="#"><FaInstagram /></a>
-              <a href="#"><FaPinterest /></a>
-              <a href="#"><FaTwitter /></a>
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaFacebook />
+              </a>
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaInstagram />
+              </a>
+              <a
+                href="https://pinterest.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaPinterest />
+              </a>
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaTwitter />
+              </a>
             </div>
           </div>
-          
+
           <div className="footer-links">
             <h4>Quick Links</h4>
             <ul>
-              <li><a href="/">Home</a></li>
-              <li><a href="/projects">Projects</a></li>
-              <li><a href="/services">Services</a></li>
-              <li><a href="/about">About Us</a></li>
-              <li><a href="/contact">Contact</a></li>
+              <li>
+                <a href="/">Home</a>
+              </li>
+              <li>
+                <a href="/projects">Projects</a>
+              </li>
+              <li>
+                <a href="/services">Services</a>
+              </li>
+              <li>
+                <a href="/about">About Us</a>
+              </li>
+              <li>
+                <a href="/contact">Contact</a>
+              </li>
             </ul>
           </div>
-          
+
           <div className="footer-contact">
             <h4>Contact Us</h4>
             <ul>
@@ -46,7 +83,7 @@ const Footer = () => {
             </ul>
           </div>
         </motion.div>
-        
+
         <div className="footer-bottom">
           <p>&copy; {currentYear} DesignHaven. All rights reserved.</p>
         </div>
