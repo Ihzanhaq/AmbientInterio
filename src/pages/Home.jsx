@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-import styled from 'styled-components';
 import Hero from '../components/Hero';
 import ProjectsGallery from '../components/ProjectsGallery';
 import ServicesOverview from '../components/ServicesOverview';
